@@ -7,8 +7,8 @@ import java.awt.event.ActionListener;
 
 public class PasswordApp extends JFrame {
     String service = "PasswordApp";
-    String userName = "Tanya";
-    String password = "1234";
+    String userName = "asd";
+    String password = "asd";
 
     public PasswordApp() {
         setLayout(new FlowLayout());

@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class AssignmentInfo {
     public static void main(String[] args) {
-        System.out.println("Фамилия разработчика: Порсева");
+        System.out.println("Фамилия разработчика: Ахчизба");
         Date startDate = new Date(2023 - 1900, 8, 26, 21, 49);
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy HH:mm");
 

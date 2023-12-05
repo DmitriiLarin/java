@@ -5,7 +5,7 @@ import java.util.Date;
 
 public class Student {
     public static void main(String[] args) {
-        Student student = new Student("Татьяна", "Порсева", new Date(2004-1900, 5, 12, 14, 30), "Программная инженерия", 2, "ИКБО-01-22", 5);
+        Student student = new Student("Ашан", "Ахчизба", new Date(2004-1900, 5, 12, 14, 30), "Программная инженерия", 2, "ИКБО-17-22", 5);
         System.out.println(student.toString(BirthdayDateFormat.SHORT));
         System.out.println(student.toString(BirthdayDateFormat.MEDIUM));
         System.out.println(student.toString(BirthdayDateFormat.FULL));
