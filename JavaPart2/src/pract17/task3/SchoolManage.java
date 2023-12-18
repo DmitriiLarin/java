@@ -15,12 +15,12 @@ public class SchoolManage
     {
         Model model = new Model();
 
-        model.setSchoolName("1547");
-        model.setSchoolAddress("Belorechenskaya 26/7");
+        model.setSchoolName("2107");
+        model.setSchoolAddress("Gilarovskogo 21");
         model.addingStudent("Nick", 16, 4.5);
-        model.addingStudent("Val", 17, 3.8);
-        model.addingStudent("Nastya", 16, 4.7);
-        model.addingStudent("Slava", 17, 4.9);
+        model.addingStudent("Steve", 17, 3.8);
+        model.addingStudent("Steve", 16, 4.7);
+        model.addingStudent("Steve", 17, 4.9);
 
         return model;
     }
