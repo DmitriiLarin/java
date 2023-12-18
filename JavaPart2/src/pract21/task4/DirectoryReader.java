@@ -7,7 +7,7 @@ import java.util.List;
 
 public class DirectoryReader {
     public static void main(String[] args) {
-        String directoryPath = "C:\\Program Files\\Epic Games\\FallGuys";
+        String directoryPath = "../..";
         List<String> fileList = listFilesInDirectory(directoryPath);
 
         if (fileList.size() > 0) {
